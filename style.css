@@ -1,0 +1,94 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+
+    .mainDiv {  display: flex; 
+                justify-content: center; 
+                align-items: center; 
+                width: 100vw; 
+                height: 100vh; 
+                background-color:hsl(47, 88%, 63%);}    
+
+    .qrcomp {   display:flex; 
+                justify-content: center; 
+                align-items:flex-end; }
+
+    .date {     font-size: 10px;
+                font-weight: 700;
+                font-family: figtree;
+                margin-left: 20px;
+                color: hsl(0, 0%, 30%)}
+
+    .btn {      border-radius: 10%;
+                border: 0px;
+                background-color:hsl(47, 88%, 63%) ;
+                font-family: figtree;
+                margin-left: 20px;
+                size: 20px;
+                padding: 5px;
+                font-size: clamp(0.5rem, 0.7vw, 1rem);
+                font-weight: 800;
+                text-align: center;}
+            
+
+    .image {    width: 90%; 
+                height: auto;
+                border-radius: 5%; 
+                margin: 10px;}
+
+    .likhai1 {  font-size: clamp(0.9rem, 1.4vw, 1rem);
+                text-align: left;
+                font-weight:800;
+                margin: 12px;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-family: figtree;
+                color:  hsl(0, 0%, 7%);
+                box-sizing: border-box;
+                word-wrap: break-word;
+                overflow-wrap: break-word; }
+
+    .likhai1:hover{
+            color: hsl(47, 88%, 63%);
+            cursor: pointer;
+    }
+
+    .likhai2 {  font-size: clamp(0.5rem, 0.8vw, 1rem);
+                text-align: left;
+                font-weight: 500;
+                line-height: 15px;
+                margin: 12px;
+                margin-left: 20px;
+                margin-right: 20px;
+                font-family: figtree;
+                color: hsl(0, 0%, 42%);
+                box-sizing: border-box;
+                word-wrap: break-word;
+                overflow-wrap: break-word;}
+
+    .profile {  font-family: figtree;
+                font-weight: 800;
+                font-size: clamp(0.5rem, 0.7vw, 1rem);
+                color: hsl(0, 0%, 7%);
+                margin: 10px;
+                display: flex;
+                align-items: center; 
+                }
+
+    .profilePic { width: 10%; 
+                height: auto;
+                border-radius: 5%; 
+                margin: 10px;}
+
+    .attribution {  font-size: 11px;
+                    text-align: center; 
+                    background-color:hsl(212, 45%, 89%);}
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    .beech {    background-color: hsl(0, 0%, 100%); 
+                width: 19%; 
+                height: 55%; 
+                border-radius: 5%;
+                border: 1px solid black;
+                box-shadow: 6px 6px 1px rgba(0, 0, 0, 1);}
